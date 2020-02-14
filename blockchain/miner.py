@@ -59,7 +59,7 @@ def valid_proof(last_hash, proof):
       print(old_hash)
     return guess_hash[:6] == old_hash[-6:]
 
-    coins_mined = 0
+coins_mined = 0
 def repeat_again():
     if len(sys.argv) > 1:
         node = sys.argv[1]
